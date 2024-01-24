@@ -1,0 +1,15 @@
+<div class="antialiased bg-gray-100">
+  <div class="w-full text-gray-700 bg-white">
+    <div class="max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8">
+      <div class="flex items-center justify-between p-4">
+        <%= link_to "Thoughts and Fitness", root_path, class: 'text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg focus:outline-none focus:shadow-outline' %>
+        <nav class="flex md:ml-4">
+          <% nav_item_class = "px-2 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" %>
+          <%= link_to "Get Started", root_path, class: nav_item_class %>
+          <%= link_to "Monthly Workout Plans", root_path, class: nav_item_class %>
+          <%= link_to "Login", root_path, class: nav_item_class %>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
