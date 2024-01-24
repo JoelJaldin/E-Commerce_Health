@@ -1,0 +1,17 @@
+<%= simple_form_for(@model) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="mb-4">
+    <%= f.input :attribute1, input_html: { class: 'form-input' } %>
+  </div>
+
+  <div class="mb-4">
+    <%= f.input :attribute2, input_html: { class: 'form-input' } %>
+  </div>
+
+  <!-- Agrega más campos según sea necesario -->
+
+  <div class="mb-4">
+    <%= f.button :submit, class: 'btn btn-primary' %>
+  </div>
+<% end %>
